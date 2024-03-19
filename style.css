@@ -1,0 +1,76 @@
+
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+  }
+  .login{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin-left:280px;
+    margin-right:147px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:25px;
+    background-color: white;
+  }
+  .facebook{
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 60px;
+  }
+  #face{
+    width: 60px;
+    height: 60px;
+    color: blue;
+    font-size: 80px;
+    
+  }
+  .login-button{
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
+    padding-left: 76px;
+    padding-right: 76px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 10px;
+    cursor:pointer;
+    height: 40px;
+    
+  }
+  .login-button:hover{
+    background-color: #0084ff;
+   
+  }
+  
+  .create-button{
+    background-color: green;
+    color:white;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 10px;
+    cursor:pointer;
+    height: 40px;
+  
+  }
+  .create-button:hover{
+    background-color: yellowgreen;
+  
+  }
